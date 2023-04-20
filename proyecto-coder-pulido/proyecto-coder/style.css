@@ -140,6 +140,9 @@ footer {background-image: linear-gradient(to bottom right,#d53b45 , #a54690);
     align-items: flex-end;
     column-gap: 300px;
 }
+label { font-size: 18px; font-weight: bold; padding: auto; box-sizing: content-box; }
+input[type="email"], input[type="text"], 
+textarea { width: 100%; margin-bottom: 20px; font-size: 16px; font-family: Arial, sans-serif; } textarea { height: 150px; } input[type="email"], input[type="text"], textarea { height: 30px; border-radius: 5px; border: 1px solid #ccc; padding: 5px; }
 
 #address{
     margin: 30px;

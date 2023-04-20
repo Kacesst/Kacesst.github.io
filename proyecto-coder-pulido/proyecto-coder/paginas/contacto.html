@@ -53,28 +53,24 @@
             </a>
             <hr>
         </div>
-        <div class="form-floating mb-3" style="margin: 200px;">
-            <input type="email" class="form-control" id="floatingInputDisabled" placeholder="name@example.com" disabled>
-            <label for="floatingInputDisabled">Email</label>
-        </div>
-        <div class="form-floating mb-3" style="margin: 60px;">
-            <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextareaDisabled" disabled></textarea>
-            <label for="floatingTextareaDisabled">Nombre</label>
-        </div>
-        <div class="form-floating" style="margin: 60px;">
-            <select class="form-select" id="floatingSelectDisabled" aria-label="Floating label disabled select example" disabled>
-            <option selected>Tipo de comentario</option>
-            <option value="1">Quejas</option>
-            <option value="2">Alago</option>
-            <option value="3">Constructivo</option>
-            </select>
+            <div style="display: flex; flex-direction: column;">
+            <label style="margin-bottom: 10px;">Email</label>
+            <input type="email" style="height: 30px; border-radius: 5px; border: 1px solid #ccc; padding: 5px;" />
+          
+            <label style="margin: 10px 0;">Nombre</label>
+            <input type="text" style="height: 30px; border-radius: 5px; border: 1px solid #ccc; padding: 5px;" />
+          
+            <label style="margin: 10px 0;">Apellido</label>
+            <input type="text" style="height: 30px; border-radius: 5px; border: 1px solid #ccc; padding: 5px;" />
+          
+            <label style="margin: 10px 0;">Comentarios</label>
+            <textarea style="height: 150px; border-radius: 5px; border: 1px solid #ccc; padding: 5px;"></textarea>
 
-        </div>
-        <div class="form-floating mb-3" style="margin: 20px;">
-            <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2Disabled" style="height: 100px" disabled></textarea>
-            <label for="floatingTextarea2Disabled">Commentario</label>
-        </div>
-    </div>
+            <button style=padding:'0.5rem 1rem', borderRadius: '4px', border: 'none', backgroundColor: '#3f51b5', color: 'white', cursor: 'pointer', marginTop: '1rem'>Enviar</button>
+
+            </div>
+      </div>
+       
 
 
 
